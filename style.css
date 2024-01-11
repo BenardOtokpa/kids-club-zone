@@ -1,0 +1,78 @@
+
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;    
+    background-color: #F8F8F8;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 8px 100px 8px 100px
+    
+}
+
+.nav-logo{
+    flex-grow: 1;
+}
+
+.navbar-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.nav-links{
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:32px;
+}
+
+.nav-links > a{
+    color:black;
+    text-decoration: none;
+    padding: 12px 0px;
+}
+
+.styled-button{
+    padding: 10px 18px;
+    border-radius: 8px;
+    background: var(--Gradient, linear-gradient(122deg, #F9C8BF 3.72%, #F87C61 19.56%, #AB26F8 84.21%, #D75EFC 100.63%));
+    width: 10em; 
+      
+}
+
+.curiosity-text{
+    color:#AB26F8
+}
+.frame6{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+}
+.frame105{
+display: inline-flex;
+justify-content: center;
+gap: 15px;
+}
+
+.frame36{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    
+}
+.frame38{
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 87.011px;
+    background: #FFF;
+    box-shadow: 0px 3.48px 13.052px 0px rgba(0, 0, 0, 0.05);
+    gap: 16px;
+    
+}
