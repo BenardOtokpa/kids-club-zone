@@ -18,7 +18,7 @@ header {
   padding: 8px 100px;
 }
 .navbar-content {
-  max-width: 1240px;
+  max-width: 1440px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -59,24 +59,40 @@ header {
   line-height: 19px;
 }
 
+.navbar-content > img {
+  visibility: hidden;
+}
+@media (max-width: 1100px) {
+  .navbar-content > img {
+    width: 35px;
+    height: 35px;
+    visibility: visible;
+  }
+  .nav-links {
+    display: none;
+  }
+}
+
 /* Hero Section */
 
-/* .hero {
-  background-color: #f8f8f8;
-} */
-
 .frame105 {
-  max-width: 1254px;
+  max-width: 1454px;
+  height: 670px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  flex: 1;
 }
 
 .frame6 {
+  width: 47%;
+  height: 55%;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   align-self: center;
+  gap: 20px;
 }
 
 .socials {
@@ -97,16 +113,52 @@ header {
   font-weight: 400;
 }
 
-/* .frame36 {
-  display: flex;
-  align-items: center;
-  gap: 18px;
+.frame6 h1 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 75px;
 }
-.frame38 {
-  display: flex;
-  padding: 10px 20px;
-  border-radius: 87.011px;
-  background: #fff;
-  box-shadow: 0px 3.48px 13.052px 0px rgba(0, 0, 0, 0.05);
-  gap: 16px;
-} */
+.frame6 h1 span {
+  background: linear-gradient(to right, #f9c8bf, #f87c61, #ab26f8, #d75efc);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.frame6 p {
+  font-weight: 400;
+  color: #1e1e1e;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 50px;
+}
+.hero-button {
+  color: white;
+  border-radius: 8px;
+  border: none;
+  background: var(
+    --Gradient,
+    linear-gradient(
+      122deg,
+      #f9c8bf 3.72%,
+      #f87c61 19.56%,
+      #ab26f8 84.21%,
+      #d75efc 100.63%
+    )
+  );
+  padding: 12px 20px 12px 20px;
+  font-family: Inter;
+  width: 130px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.introduction-image {
+  flex: 1;
+}
+@media (max-width: 1000px) {
+  .frame105 {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
