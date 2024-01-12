@@ -76,18 +76,18 @@ header {
 /* Hero Section */
 
 .frame105 {
-  max-width: 1454px;
-  height: 670px;
+  max-width: 1200px;
+  height: 620px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex: 1;
+   flex: 1;
 }
 
 .frame6 {
   width: 47%;
-  height: 55%;
+  height: 50%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -154,9 +154,10 @@ header {
 }
 
 .introduction-image {
+  width: 50%;
   flex: 1;
 }
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
   .frame105 {
     flex-direction: column;
     gap: 10px;
