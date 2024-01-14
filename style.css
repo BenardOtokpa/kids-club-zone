@@ -82,12 +82,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex: 1;
 }
 
 .frame6 {
+  flex: 1;
   width: 47%;
-  height: 50%;
+  max-height: 50%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -157,7 +157,8 @@ header {
 }
 
 .introduction-image {
-  width: 50%;
+  width: 100%;
+  height: auto;
   flex: 1;
 }
 @media (max-width: 900px) {
@@ -165,4 +166,89 @@ header {
     flex-direction: column;
     gap: 10px;
   }
+}
+
+.courses {
+  max-width: 1254px;
+  min-height: 870px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.course-header {
+  height: 20%;
+  
+}
+
+.course-header h1 {
+  color: #000000DE;
+  font-family: Inter;
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: 600;
+}
+.course-header span {
+  color: #59C878;
+  font-family: Inter;
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: 700;
+}
+.course-header p {
+  color: #2D312F;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.course-cards {
+  min-height: 70%;
+}
+.card {
+  max-width: 400px;
+  min-height: 365px;
+  background-color: white;
+  border: none;
+  border-radius: 24px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.card-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.info-div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.card-head h3 {
+  font-family: inter;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+
+}
+.card-head p {
+  font-size: work sans;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+@media only screen and (min-width: 900px) {
+  .course-cards {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    background-color: #2196f3;
+    padding: 10px;
+    gap: 10px;
+  }
+ 
 }
