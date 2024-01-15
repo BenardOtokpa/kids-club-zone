@@ -176,6 +176,7 @@ header {
   justify-content: center;
   align-items: start;
   flex-direction: column;
+  gap: 20px;
 }
 .course-header {
   height: 20%;
