@@ -171,6 +171,7 @@ header {
 .courses {
   max-width: 1254px;
   min-height: 870px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: start;
@@ -178,31 +179,30 @@ header {
 }
 .course-header {
   height: 20%;
-  
 }
 
 .course-header h1 {
-  color: #000000DE;
+  color: #000000de;
   font-family: Inter;
   font-size: 42px;
   line-height: 50px;
   font-weight: 600;
 }
 .course-header span {
-  color: #59C878;
+  color: #59c878;
   font-family: Inter;
   font-size: 42px;
   line-height: 50px;
   font-weight: 700;
 }
 .course-header p {
-  color: #2D312F;
+  color: #2d312f;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
 }
 .course-cards {
-  min-height: 70%;
+  min-height: 80%;
 }
 .card {
   max-width: 400px;
@@ -232,7 +232,6 @@ header {
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-
 }
 .card-head p {
   font-size: work sans;
@@ -244,11 +243,10 @@ header {
 
 @media only screen and (min-width: 900px) {
   .course-cards {
-    display: flex;
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    background-color: #2196f3;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
     gap: 10px;
   }
- 
 }
