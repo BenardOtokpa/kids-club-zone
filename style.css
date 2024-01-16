@@ -306,6 +306,33 @@ header {
   color: #444746;
 }
 
+.unleash {
+  max-width: 1240px;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px;
+  border-radius: 20px;
+}
+
+.unleash h1 {
+  flex: 1;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+}
+.unleash p {
+  flex: 1;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #5f6368;
+}
+
 @media only screen and (min-width: 900px) {
   .course-cards {
     width: 100%;
