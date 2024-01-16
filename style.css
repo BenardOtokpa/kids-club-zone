@@ -242,6 +242,69 @@ header {
   text-align: justify;
 }
 
+.merchandise {
+  max-width: 1240px;
+  margin: 50px auto;
+}
+
+.merchandise h2 {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.frame30 {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.link {
+  width: 290.55px;
+  height: 92.24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #d3e3fd;
+  border-radius: 19px;
+}
+
+.link1 {
+  background-color: #e3e3e3;
+}
+
+.link2 {
+  background-color: #c2e7ff;
+}
+
+.link3 {
+  background-color: #c4eed0;
+}
+
+.link4 {
+  background-color: #d5d1ff;
+}
+
+.link5 {
+  background-color: #fde3ff;
+}
+
+.link6 {
+  background-color: #eeffbe;
+}
+
+.link7 {
+  background-color: #ffe1e1;
+}
+
+.link p {
+  font-family: Work Sans;
+  font-size: 18.16px;
+  font-weight: 400;
+}
+
 @media only screen and (min-width: 900px) {
   .course-cards {
     width: 100%;
