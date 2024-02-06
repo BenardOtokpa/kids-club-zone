@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -208,19 +209,19 @@ header {
   border-radius: 20px;
 }
 .dive-card:first-child {
-  background-color: #FF564C;
+  background-color: #ff564c;
 }
 .dive-card:nth-child(2) {
-  background-color: #E8F0FE;
+  background-color: #e8f0fe;
 }
 .dive-card:nth-child(4) {
-  background-color: #7021D5;
+  background-color: #7021d5;
 }
 .dive-card:nth-child(5) {
-  background-color: #1A73E8;
+  background-color: #1a73e8;
 }
 .dive-card:last-child {
-  background-color: #E8F0FE;
+  background-color: #e8f0fe;
 }
 
 .dive-card h3 {
@@ -298,9 +299,9 @@ header {
   font-size: 30px;
   text-align: center;
 }
-.card:hover{
+.card:hover {
   transform: scale(1.02);
-  transition: .5s ;
+  transition: 0.5s;
 }
 .card-head {
   display: flex;
@@ -338,7 +339,6 @@ header {
     gap: 10px;
   }
 }
-
 
 /* Merchandise Section */
 
